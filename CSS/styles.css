@@ -1,0 +1,994 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1259px) {
+  body {
+    background-color: #fff;
+  }
+
+  nav li {
+    margin: 1em;
+  }
+
+  nav a {
+    font-weight: 700px;
+  }
+
+  nav a:hover {
+    color: brown;
+  }
+
+  .nom {
+    margin-right: 260px;
+  }
+
+  .current {
+    padding: 5px 18px;
+  }
+  .container {
+    font-size: 25px;
+  }
+
+  .mon {
+    justify-content: end;
+    margin-right: 380px;
+    margin-top: 40px;
+  }
+
+  .footer {
+    margin-top: 10px;
+  }
+  .nim {
+    margin-right: 380px;
+    margin-top: 15px;
+    font-size: 15px;
+    white-space: nowrap;
+  }
+  .nil {
+    margin-left: 360px;
+    font-size: 40px;
+    white-space: nowrap;
+  }
+
+  .scoop a {
+    font-size: 20px;
+  }
+
+  .col a {
+    font-size: 20px;
+  }
+
+  .col h2 {
+    font-size: 30px;
+  }
+
+  .col h3 {
+    width: 70%;
+    margin-left: 50px;
+  }
+
+  .scoop a {
+    font-size: 50px;
+  }
+
+  .scoop h4 {
+    margin-top: 60px;
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+  .scoop {
+    width: 80%;
+    margin-left: 30px;
+  }
+
+  .con {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 15px;
+  }
+
+  #oml {
+    width: 95%;
+    margin-left: 30px;
+    padding: 30px 20px;
+    font-size: 15px;
+  }
+
+  #oml-2 {
+    width: 95%;
+    margin-left: 30px;
+    padding: 30px 20px;
+    font-size: 15px;
+  }
+
+  #oml-3 {
+    width: 95%;
+    margin-left: 30px;
+    padding: 20px 20px;
+    font-size: 15px;
+  }
+  .lim {
+    width: 80%;
+    margin-left: 150px;
+    color: #4c4d5f;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    display: flex;
+  }
+  .lim h1 {
+    font-size: 30px;
+    margin-top: 50px;
+    padding: 50px 40px;
+  }
+  .lim h3 {
+    margin-left: 200px;
+    margin-top: 90px;
+    margin-bottom: 120px;
+    padding: 20px;
+    width: 20%;
+  }
+  .lin {
+    font-size: 35px;
+  }
+  .ho {
+    margin-left: 250px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  .ove {
+    margin-top: 90px;
+  }
+  .ove h2 {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .ove li {
+    margin: 1em;
+  }
+  .ove a {
+    font-size: 20px;
+  }
+  .ove h3 {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .ovu h3 {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .ovu h2 {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .ovu a {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1378px) {
+  body {
+    background-color: #fff;
+  }
+  .container {
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 70px;
+  }
+  .nom {
+    margin-right: 100px;
+  }
+
+  nav a {
+    font-weight: 700px;
+  }
+
+  nav a:hover {
+    color: brown;
+  }
+
+  .mon {
+    justify-content: end;
+    margin-right: 300px;
+    margin-top: 40px;
+    font-size: 15px;
+  }
+
+  .footer {
+    margin-top: 10px;
+  }
+
+  .nim {
+    margin-right: 300px;
+    font-size: 15px;
+    margin-top: 15px;
+  }
+
+  .nil {
+    margin-left: 300px;
+  }
+
+  #col-1 {
+    width: 45%;
+  }
+
+  #col-2 {
+    width: 45%;
+  }
+
+  .scoop a {
+    font-size: 40px;
+  }
+
+  .col a {
+    font-size: 20px;
+  }
+
+  .col h3 {
+    width: 75%;
+    margin-left: 60px;
+  }
+
+  .con {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 15px;
+  }
+
+  #oml {
+    width: 95%;
+    margin-left: 30px;
+    padding: 30px 20px;
+    font-size: 20px;
+  }
+
+  #oml-2 {
+    width: 95%;
+    margin-left: 30px;
+    padding: 30px 20px;
+    font-size: 20px;
+  }
+
+  #oml-3 {
+    width: 95%;
+    margin-left: 30px;
+    padding: 20px 20px;
+    font-size: 20px;
+  }
+
+  .colm-1 {
+    font-size: 25px;
+  }
+  .colm-2 {
+    font-size: 25px;
+  }
+
+  .colm {
+    font-size: 25px;
+  }
+
+  .scoop a {
+    font-size: 90px;
+  }
+
+  .scoop h4 {
+    margin-top: 80px;
+    font-size: 30px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: 300;
+  }
+  .scoop {
+    width: 80%;
+    margin-left: 50px;
+  }
+  .mol {
+    margin-left: 80px;
+  }
+
+  .lim {
+    width: 95%;
+    margin: 50px;
+    margin-left: 30px;
+    color: #4c4d5f;
+    font-size: 20px;
+    display: flex;
+  }
+  .lim h1 {
+    padding: 70px 70px;
+  }
+  .lim h3 {
+    width: 20%;
+    margin-right: 20px;
+    margin-top: 70px;
+    margin-bottom: 120px;
+    padding: 20px 20px;
+  }
+
+  .lin {
+    font-size: 35px;
+  }
+  .ho {
+    margin-left: 170px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+
+  .ove {
+    margin-top: 90px;
+  }
+  .ove h2 {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .ove li {
+    margin: 1em;
+  }
+  .ove a {
+    font-size: 20px;
+  }
+  .ove h3 {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .ovu h3 {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .ovu h2 {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .ovu a {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  body {
+    background-color: #fff;
+  }
+
+  nav a {
+    font-weight: 700px;
+  }
+  nav a:hover {
+    color: brown;
+  }
+
+  nav li {
+    display: none;
+  }
+
+  .mon {
+    justify-content: end;
+    margin-right: 180px;
+    font-size: 12px;
+  }
+  .footer {
+    margin-top: 10px;
+  }
+  .nim {
+    margin-right: 180px;
+    font-size: 15px;
+    margin-top: 15px;
+    white-space: nowrap;
+  }
+
+  .nil {
+    margin-left: 150px;
+    white-space: nowrap;
+    font-size: 40px;
+  }
+  h1 {
+    margin-top: 30px;
+  }
+
+  .col {
+    width: 100%;
+    flex-direction: column;
+  }
+  #col-1 {
+    width: 95%;
+    margin-left: 20px;
+  }
+
+  #col-2 {
+    width: 95%;
+    margin-left: 20px;
+  }
+
+  .col a {
+    font-size: 20px;
+  }
+
+  .col h3 {
+    width: 70%;
+    margin-left: 95px;
+  }
+  .sub-title {
+    font-size: 20px;
+  }
+  .con {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  #oml {
+    width: 95%;
+    margin-left: 15px;
+    padding: 20px 20px;
+  }
+
+  #oml-2 {
+    width: 95%;
+    margin-left: 15px;
+    padding: 20px 20px;
+    padding-bottom: 30px;
+  }
+
+  #oml-3 {
+    width: 95%;
+    margin-left: 15px;
+    padding: 20px 20px;
+  }
+  .mol {
+    margin-top: 60px;
+    margin-left: 50px;
+  }
+
+  .colm {
+    font-size: 25px;
+  }
+  .colm-1 {
+    font-size: 25px;
+  }
+  .colm-2 {
+    font-size: 25px;
+  }
+  .scoop a {
+    font-size: 70px;
+  }
+
+  .scoop {
+    margin-right: 50px;
+  }
+
+  .lim {
+    width: 95%;
+    margin-top: 40px;
+    margin-left: 15px;
+    display: flex;
+  }
+
+  .lim h1 {
+    font-size: 30px;
+    padding: 60px 60px;
+    color: #4c4d5f;
+  }
+  .lim h3 {
+    width: 30%;
+    margin-right: 20px;
+    margin-top: 90px;
+    margin-bottom: 120px;
+    padding: 20px 20px;
+  }
+  .lin {
+    font-size: 30px;
+  }
+  .ho {
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  .ove {
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  .ove h2 {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .ove li {
+    margin: 1em;
+  }
+  .ove h3 {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .ovu h3 {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .ovu {
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  .ovu h2 {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .ovu a {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 748px) {
+  body {
+    background-color: #fff;
+  }
+
+  nav li {
+    display: none;
+  }
+
+  .mon {
+    justify-content: end;
+    margin-right: 40px;
+    font-size: 12px;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .nim {
+    margin-left: 120px;
+    margin-top: 40px;
+    font-size: 15px;
+    white-space: nowrap;
+  }
+  .nil {
+    font-size: 30px;
+    margin-left: 40px;
+    white-space: nowrap;
+  }
+
+  .col {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .col a {
+    font-size: 25px;
+  }
+  #col-1 {
+    margin-left: 20px;
+    width: 95%;
+  }
+  .col h3 {
+    width: 80%;
+    margin-left: 32px;
+  }
+
+  #col-2 {
+    margin-left: 20px;
+    width: 95%;
+  }
+  .scoop {
+    width: 90%;
+    margin-left: 20px;
+  }
+  .con {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  #oml {
+    width: 90%;
+    margin-left: 20px;
+    padding: 0 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction: column-reverse;
+  }
+
+  .sub-title h2 {
+    font-size: 30px;
+  }
+
+  #oml-2 {
+    width: 90%;
+    margin-left: 20px;
+    padding: 0 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction: column-reverse;
+  }
+
+  #oml-3 {
+    width: 90%;
+    margin-left: 20px;
+    padding: 0px 20px;
+    padding-top: 20px;
+    flex-direction: column-reverse;
+  }
+
+  .colm-2 {
+    font-size: 30px;
+  }
+
+  .colm-1 {
+    font-size: 30px;
+  }
+
+  .colm {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .scoop a {
+    font-size: 60px;
+  }
+
+  .scoop h4 {
+    margin-top: 60px;
+  }
+
+  .lim {
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lim h1 {
+    font-size: 25px;
+    padding: 60px 60px;
+  }
+
+  .lim h3 {
+    margin-left: 110px;
+    font-size: 15px;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 40%;
+  }
+  .lin {
+    font-size: 25px;
+  }
+
+  .ho {
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  .ove {
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  .ove h2 {
+    font-size: 20px;
+    margin: 20px;
+  }
+
+  .ovu h3 {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .ovu {
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  .ovu h2 {
+    font-size: 20px;
+    margin: 20px;
+  }
+  .ovu a {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  body {
+    background-color: #fff;
+  }
+
+  nav li {
+    display: none;
+  }
+
+  .mon {
+    justify-content: end;
+    font-size: 15px;
+  }
+
+  .col a {
+    font-size: 15px;
+  }
+  .scoop a {
+    font-size: 30px;
+  }
+
+  .sub-title {
+    font-size: 10px;
+  }
+  .scoop h4 {
+    font-size: 10px;
+  }
+
+  .lim h3 {
+    font-size: 10px;
+  }
+}
+
+.header {
+  color: #00b289;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0.5em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4c4d5f;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 70px;
+  justify-content: space-between;
+}
+
+.current {
+  color: #00b289;
+  white-space: ;
+  background-color: #fff;
+  border: 2px solid #00b289;
+  font-size: 12px;
+  padding: 10px 18px;
+  border-radius: 5px;
+}
+.current-page {
+  color: #fff;
+  white-space: nowrap;
+  background-color: #00b289;
+  border: 2px solid #00b289;
+  padding: 10px 18px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.mon {
+  margin-top: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  color: #00b289;
+  font-weight: 600;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nim {
+  color: #4c4d5f;
+  font-weight: 400;
+}
+
+.nil {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4c4d5f;
+  font-weight: 500;
+}
+
+.col {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#col-1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  border: 1px solid #4c4d5f;
+  padding: 0;
+}
+.col a {
+  text-decoration: none;
+  color: #4c4d5f;
+  text-align: center;
+}
+.col h2 {
+  font-size: 30px;
+  font-weight: 200;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.scoop {
+  list-style: none;
+  font-weight: 700;
+  text-align: center;
+  border-bottom: 3px solid #00b289;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.scoop a {
+  color: #4c4d5f;
+}
+.scoop h4 {
+  color: #4c4d5f;
+  font-weight: 400;
+}
+
+.col li {
+  margin: 1em;
+}
+
+.col h3 {
+  border: 2px solid #00b289;
+  text-align: center;
+  background-color: #00b289;
+  color: #fff;
+  border-radius: 5px;
+  padding: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#col-2 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #4c4d5f;
+  margin-top: 50px;
+  padding: 0;
+}
+
+.con {
+  color: #4c4d5f;
+}
+
+.sub-title {
+  display: flex;
+  flex-direction: column;
+}
+
+#oml {
+  color: #4c4d5f;
+  border: 1px solid #4c4d5f;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#oml-2 {
+  display: flex;
+  justify-content: space-between;
+  color: #4c4d5f;
+  border: 1px solid #4c4d5f;
+  margin-top: 20px;
+}
+
+#oml-3 {
+  display: flex;
+  justify-content: space-between;
+  color: #4c4d5f;
+  border: 1px solid #4c4d5f;
+  margin-top: 20px;
+}
+.cool a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #00b289;
+  margin-top: 20px;
+}
+.cool {
+  list-style: none;
+  margin-top: 20px;
+}
+.colm {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.colm-2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.colm-1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.mol {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.lim p {
+  color: #00b289;
+}
+
+em {
+  color: #00b289;
+}
+
+.lim {
+  background-color: rgb(199, 237, 224);
+}
+
+.lim h3 {
+  text-align: center;
+  border: 1px solid #00b289;
+  background-color: #00b289;
+  border-radius: 5px;
+  color: #fff;
+}
+.lin {
+  color: #00b289;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.ho {
+  list-style: none;
+}
+.ho a {
+  text-decoration: none;
+  color: #4c4d5f;
+}
+
+.ho a:hover {
+  color: #00b289;
+}
+
+.ove {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.ove a {
+  text-decoration: none;
+  color: #4c4d5f;
+}
+
+.ovu h3 {
+  color: #00b289;
+}
+.ove h2 {
+  color: #4c4d5f;
+}
+.ovu h2 {
+  color: #4c4d5f;
+}
+.ovu {
+  list-style: none;
+  justify-content: space-evenly;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+}
+.ovu a {
+  text-decoration: none;
+  color: #4c4d5f;
+}
+.ovu li {
+  margin: 1em;
+}
+.ove li {
+  margin: 1em;
+}
